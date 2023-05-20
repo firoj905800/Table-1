@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <fieldset>
+
+</head>
+<body>
+    <u>
+    <h1 align="center" header>FORM</h1></u>
+    <!-- form -->
+    <form action="#">
+        <label for="name">NAME:</label>
+        <input type="text" id="name" placeholder="ENTER THE NAME" name="user name" autocomplete="true" required><br>
+        <label for="email">EMAIL:</label>
+        <input type="EMAIL" name="email" id="email" placeholder="ENTER THE EMAIL" autocomplete="true" required><br>
+         <label for="pass">PASSWORD:</label>
+         <input type="PASSWORD" placeholder="ENTER THE PASSWORD" id="pass"  name="PASSWORD" autocomplete="true" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
+        <label for="pn">phone:</label>
+        <input type="phone" autocomplete="true" placeholder="ENTER YOUR NUMBER" id="pn" pattern="[0-9][10]" required>
+        <br>
+        <label for="gender">gender:</label><br>
+        <label for="gender">1.male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">2.female</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">3.other</label>
+        <input type="radio" name="gender" id="gender">
+        <br>
+        <label for="language">Language:</label><br>
+        <label for="react">React</label>
+        <input type="radio"  name="language" value="React" id="react">
+        <label for="angular">Angular</label>
+        <input type="radio" name="language" value="Angular" id="angular">
+        <label for="vue">Vue</label>
+        <input type="radio" name="language" id="vue" value="Vue">
+        <br><br>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="cource1" id="html" value="HTML">
+        <label for="python">PYTHON</label>
+        <input type="checkbox" name="cource2" id="python">
+        <label for="ccc">CCC</label>
+        <input type="checkbox" name="cource3" id="ccc"><br><br>
+        <select name="Field" id="drop" required>
+            <option disabled selected>Default Value</option>
+            <option value="ForntEnd">ForntEnd Developer</option>
+            <option value="Backend "> Backend Developer</option>
+            <option value="full Stack">Full Stack Developer</option>
+            <br><br>
+        </select><br><br>
+        <p align="center">
+        <textarea name="text" id="" cols="20" rows="10" placeholder="write to here"></textarea>
+        </p>
+        
+        <button type="submit">Submit</button>
+
+      </form>
+  
+ 
+</fieldset>
+    
+    <a href="./video.html">NEXT</a>
+   
+</body>
+</html>
